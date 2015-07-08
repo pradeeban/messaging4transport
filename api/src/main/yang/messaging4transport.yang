@@ -1,0 +1,9 @@
+module messaging4transport {
+    yang-version 1;
+    namespace "urn:opendaylight:params:xml:ns:yang:messaging4transport";
+    prefix "messaging4transport";
+
+    revision "2015-01-05" {
+        description "Initial revision of messaging4transport model";
+    }
+}
