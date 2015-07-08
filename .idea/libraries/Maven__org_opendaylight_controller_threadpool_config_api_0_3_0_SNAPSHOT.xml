@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opendaylight.controller:threadpool-config-api:0.3.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/threadpool-config-api/0.3.0-SNAPSHOT/threadpool-config-api-0.3.0-20150618.164130-944.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/threadpool-config-api/0.3.0-SNAPSHOT/threadpool-config-api-0.3.0-20150618.164130-944-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/threadpool-config-api/0.3.0-SNAPSHOT/threadpool-config-api-0.3.0-20150618.164130-944-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

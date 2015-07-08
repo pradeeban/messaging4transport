@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opendaylight.yangtools:yang-model-export:0.7.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/yangtools/yang-model-export/0.7.0-SNAPSHOT/yang-model-export-0.7.0-20150619.213752-293.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/yangtools/yang-model-export/0.7.0-SNAPSHOT/yang-model-export-0.7.0-20150619.213752-293-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/yangtools/yang-model-export/0.7.0-SNAPSHOT/yang-model-export-0.7.0-20150619.213752-293-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

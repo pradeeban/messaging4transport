@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opendaylight.controller:sal-binding-config:1.2.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/sal-binding-config/1.2.0-SNAPSHOT/sal-binding-config-1.2.0-20150618.163953-946.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/sal-binding-config/1.2.0-SNAPSHOT/sal-binding-config-1.2.0-20150618.163953-946-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/sal-binding-config/1.2.0-SNAPSHOT/sal-binding-config-1.2.0-20150618.163953-946-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

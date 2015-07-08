@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opendaylight.yangtools:restconf-util:0.7.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/yangtools/restconf-util/0.7.0-SNAPSHOT/restconf-util-0.7.0-20150619.213718-526.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/yangtools/restconf-util/0.7.0-SNAPSHOT/restconf-util-0.7.0-20150619.213718-526-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/yangtools/restconf-util/0.7.0-SNAPSHOT/restconf-util-0.7.0-20150619.213718-526-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

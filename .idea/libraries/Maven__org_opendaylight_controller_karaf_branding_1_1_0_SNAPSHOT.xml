@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opendaylight.controller:karaf.branding:1.1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/karaf.branding/1.1.0-SNAPSHOT/karaf.branding-1.1.0-20150618.163818-944.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/karaf.branding/1.1.0-SNAPSHOT/karaf.branding-1.1.0-20150618.163818-944-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/karaf.branding/1.1.0-SNAPSHOT/karaf.branding-1.1.0-20150618.163818-944-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

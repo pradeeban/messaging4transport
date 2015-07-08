@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opendaylight.aaa:aaa-authn-mdsal-store-impl:0.2.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/aaa/aaa-authn-mdsal-store-impl/0.2.0-SNAPSHOT/aaa-authn-mdsal-store-impl-0.2.0-20150609.215012-17.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/aaa/aaa-authn-mdsal-store-impl/0.2.0-SNAPSHOT/aaa-authn-mdsal-store-impl-0.2.0-20150609.215012-17-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/aaa/aaa-authn-mdsal-store-impl/0.2.0-SNAPSHOT/aaa-authn-mdsal-store-impl-0.2.0-20150609.215012-17-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

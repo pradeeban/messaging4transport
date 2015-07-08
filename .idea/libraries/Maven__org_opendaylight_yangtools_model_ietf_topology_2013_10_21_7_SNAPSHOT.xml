@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opendaylight.yangtools.model:ietf-topology:2013.10.21.7-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/yangtools/model/ietf-topology/2013.10.21.7-SNAPSHOT/ietf-topology-2013.10.21.7-20150619.213824-523.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/yangtools/model/ietf-topology/2013.10.21.7-SNAPSHOT/ietf-topology-2013.10.21.7-20150619.213824-523-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/yangtools/model/ietf-topology/2013.10.21.7-SNAPSHOT/ietf-topology-2013.10.21.7-20150619.213824-523-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

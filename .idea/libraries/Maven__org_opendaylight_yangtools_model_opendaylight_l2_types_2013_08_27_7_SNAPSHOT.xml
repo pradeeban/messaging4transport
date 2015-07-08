@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opendaylight.yangtools.model:opendaylight-l2-types:2013.08.27.7-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/yangtools/model/opendaylight-l2-types/2013.08.27.7-SNAPSHOT/opendaylight-l2-types-2013.08.27.7-20150619.213838-523.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/yangtools/model/opendaylight-l2-types/2013.08.27.7-SNAPSHOT/opendaylight-l2-types-2013.08.27.7-20150619.213838-523-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/yangtools/model/opendaylight-l2-types/2013.08.27.7-SNAPSHOT/opendaylight-l2-types-2013.08.27.7-20150619.213838-523-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opendaylight.yangtools.model:ietf-interfaces:2014.05.08.7-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/yangtools/model/ietf-interfaces/2014.05.08.7-SNAPSHOT/ietf-interfaces-2014.05.08.7-20150619.213816-225.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/yangtools/model/ietf-interfaces/2014.05.08.7-SNAPSHOT/ietf-interfaces-2014.05.08.7-20150619.213816-225-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/yangtools/model/ietf-interfaces/2014.05.08.7-SNAPSHOT/ietf-interfaces-2014.05.08.7-20150619.213816-225-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

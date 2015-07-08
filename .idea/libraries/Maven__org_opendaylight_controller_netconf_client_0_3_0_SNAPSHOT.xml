@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opendaylight.controller:netconf-client:0.3.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/netconf-client/0.3.0-SNAPSHOT/netconf-client-0.3.0-20150618.163843-945.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/netconf-client/0.3.0-SNAPSHOT/netconf-client-0.3.0-20150618.163843-945-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/netconf-client/0.3.0-SNAPSHOT/netconf-client-0.3.0-20150618.163843-945-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

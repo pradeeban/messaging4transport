@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opendaylight.controller:config-persister-file-xml-adapter:0.3.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/config-persister-file-xml-adapter/0.3.0-SNAPSHOT/config-persister-file-xml-adapter-0.3.0-20150618.163629-948.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/config-persister-file-xml-adapter/0.3.0-SNAPSHOT/config-persister-file-xml-adapter-0.3.0-20150618.163629-948-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/config-persister-file-xml-adapter/0.3.0-SNAPSHOT/config-persister-file-xml-adapter-0.3.0-20150618.163629-948-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

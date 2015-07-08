@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opendaylight.controller:ietf-netconf:0.3.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/ietf-netconf/0.3.0-SNAPSHOT/ietf-netconf-0.3.0-20150618.163747-530.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/ietf-netconf/0.3.0-SNAPSHOT/ietf-netconf-0.3.0-20150618.163747-530-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/ietf-netconf/0.3.0-SNAPSHOT/ietf-netconf-0.3.0-20150618.163747-530-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

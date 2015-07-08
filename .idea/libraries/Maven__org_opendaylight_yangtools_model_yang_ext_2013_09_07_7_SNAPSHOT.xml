@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opendaylight.yangtools.model:yang-ext:2013.09.07.7-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/yangtools/model/yang-ext/2013.09.07.7-SNAPSHOT/yang-ext-2013.09.07.7-20150619.213840-523.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/yangtools/model/yang-ext/2013.09.07.7-SNAPSHOT/yang-ext-2013.09.07.7-20150619.213840-523-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/yangtools/model/yang-ext/2013.09.07.7-SNAPSHOT/yang-ext-2013.09.07.7-20150619.213840-523-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

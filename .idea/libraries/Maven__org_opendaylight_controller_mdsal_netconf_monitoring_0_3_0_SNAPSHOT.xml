@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opendaylight.controller:mdsal-netconf-monitoring:0.3.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/mdsal-netconf-monitoring/0.3.0-SNAPSHOT/mdsal-netconf-monitoring-0.3.0-20150618.163829-440.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/mdsal-netconf-monitoring/0.3.0-SNAPSHOT/mdsal-netconf-monitoring-0.3.0-20150618.163829-440-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/mdsal-netconf-monitoring/0.3.0-SNAPSHOT/mdsal-netconf-monitoring-0.3.0-20150618.163829-440-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

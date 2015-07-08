@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opendaylight.yangtools:binding-generator-api:0.7.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/yangtools/binding-generator-api/0.7.0-SNAPSHOT/binding-generator-api-0.7.0-20150619.213620-529.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/yangtools/binding-generator-api/0.7.0-SNAPSHOT/binding-generator-api-0.7.0-20150619.213620-529-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/yangtools/binding-generator-api/0.7.0-SNAPSHOT/binding-generator-api-0.7.0-20150619.213620-529-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

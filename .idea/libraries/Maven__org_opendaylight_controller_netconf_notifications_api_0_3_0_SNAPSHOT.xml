@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opendaylight.controller:netconf-notifications-api:0.3.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/netconf-notifications-api/0.3.0-SNAPSHOT/netconf-notifications-api-0.3.0-20150618.163856-528.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/netconf-notifications-api/0.3.0-SNAPSHOT/netconf-notifications-api-0.3.0-20150618.163856-528-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/netconf-notifications-api/0.3.0-SNAPSHOT/netconf-notifications-api-0.3.0-20150618.163856-528-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

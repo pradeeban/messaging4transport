@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opendaylight.controller:protocol-framework:0.6.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/protocol-framework/0.6.0-SNAPSHOT/protocol-framework-0.6.0-20150618.163933-945.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/protocol-framework/0.6.0-SNAPSHOT/protocol-framework-0.6.0-20150618.163933-945-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/protocol-framework/0.6.0-SNAPSHOT/protocol-framework-0.6.0-20150618.163933-945-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
