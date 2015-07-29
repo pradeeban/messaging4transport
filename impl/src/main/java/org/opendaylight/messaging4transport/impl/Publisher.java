@@ -8,85 +8,49 @@
 package org.opendaylight.messaging4transport.impl;
 
 import org.apache.qpid.amqp_1_0.jms.impl.*;
+import org.opendaylight.messaging4transport.constants.Messaging4TransportConstants;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import javax.jms.*;
 
 public class Publisher {
+    private static final Logger LOG = LoggerFactory.getLogger(Publisher.class);
 
-    private static boolean isKarafBased = false;
-
-    public static void main(String[] args) throws Exception {
-        publish(args);
-    }
-
-    public static void publish(String[] args) throws JMSException, InterruptedException {
-        String destination = arg(args, 0, "topic://event");
-        publish(destination);
-    }
-
+    /**
+     * Publishes the RPC, data tree, and notifications to the given destination/topic.
+     */
     public static void publish(){
-        String destination = "topic://event";
+        String destination = Messaging4TransportConstants.AMQP_TOPIC_EVENT_DESTINATION;
         try {
             publish(destination);
         } catch (JMSException e) {
-            e.printStackTrace();
+            LOG.error("JMS Exception in publishing to the AMQP broker", e);
         } catch (InterruptedException e) {
-            e.printStackTrace();
+            LOG.error("Interrupted Exception in publishing to the AMQP broker", e);
         }
     }
 
+    /**
+     * Publishes the data to the given destination
+     * @param destination The destination topic
+     * @throws JMSException if sending the data to the broker fails
+     * @throws InterruptedException if interrupted
+     */
     public static void publish(String destination) throws JMSException, InterruptedException {
-        String user = isKarafBased ? env("ACTIVEMQ_USER", "karaf") : env("ACTIVEMQ_USER", "admin");
-        String password = isKarafBased ? env("ACTIVEMQ_PASSWORD", "karaf") : env("ACTIVEMQ_PASSWORD", "password");
-
-        String host = env("ACTIVEMQ_HOST", "localhost");
-        int port = Integer.parseInt(env("ACTIVEMQ_PORT", "5672"));
-
-        int messages = 10000;
-        int size = 256;
-
-        String DATA = "abcdefghijklmnopqrstuvwxyz";
-        String body = "";
-        for (int i = 0; i < size; i++) {
-            body += DATA.charAt(i % DATA.length());
-        }
+        String user = AMQPConfig.getUser();
+        String password = AMQPConfig.getPassword();
+        String host = AMQPConfig.getHost();
+        int port = AMQPConfig.getPort();
 
         ConnectionFactoryImpl factory = new ConnectionFactoryImpl(host, port, user, password);
-        Destination dest = null;
-        if (destination.startsWith("topic://")) {
-            dest = new TopicImpl(destination);
-        } else {
-            dest = new QueueImpl(destination);
-        }
 
         Connection connection = factory.createConnection(user, password);
         connection.start();
         Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
-        MessageProducer producer = session.createProducer(dest);
+        MessageProducer producer = session.createProducer(AMQPConfig.getDestination(destination));
         producer.setDeliveryMode(DeliveryMode.NON_PERSISTENT);
 
-        for (int i = 1; i <= messages; i++) {
-            TextMessage msg = session.createTextMessage("#:" + i);
-            msg.setIntProperty("id", i);
-            producer.send(msg);
-            if ((i % 1000) == 0) {
-                System.out.println(String.format("Sent %d messages", i));
-            }
-        }
+        MessageGen.sendMessages(session, producer);
     }
-
-    private static String env(String key, String defaultValue) {
-        String rc = System.getenv(key);
-        if (rc == null)
-            return defaultValue;
-        return rc;
-    }
-
-    private static String arg(String[] args, int index, String defaultValue) {
-        if (index < args.length)
-            return args[index];
-        else
-            return defaultValue;
-    }
-
 }

@@ -5,36 +5,33 @@
  * terms of the Eclipse Public License v1.0 which accompanies this distribution,
  * and is available at http://www.eclipse.org/legal/epl-v10.html
  */
-package org.opendaylight.messaging4transport.amqp;
+package org.opendaylight.messaging4transport.sample;
 
 
 import org.apache.qpid.amqp_1_0.jms.impl.*;
+import org.opendaylight.messaging4transport.constants.Messaging4TransportConstants;
+import org.opendaylight.messaging4transport.impl.AMQPConfig;
+
 import javax.jms.*;
 
+/**
+ * Sample AMQP Listener Implementation.
+ */
 public class Listener {
-    private static boolean isKarafBased = false;
-
     public static void main(String []args) throws JMSException {
+        String user = AMQPConfig.getUser();
+        String password = AMQPConfig.getPassword();
+        String host = AMQPConfig.getHost();
+        int port = AMQPConfig.getPort();
 
-        String user = isKarafBased ? env("ACTIVEMQ_USER", "karaf") : env("ACTIVEMQ_USER", "admin");
-        String password = isKarafBased ? env("ACTIVEMQ_PASSWORD", "karaf") : env("ACTIVEMQ_PASSWORD", "password");
-
-        String host = env("ACTIVEMQ_HOST", "localhost");
-        int port = Integer.parseInt(env("ACTIVEMQ_PORT", "5672"));
-        String destination = arg(args, 0, "topic://event");
+        String destination = arg(args, 0, Messaging4TransportConstants.AMQP_TOPIC_EVENT_DESTINATION);
 
         ConnectionFactoryImpl factory = new ConnectionFactoryImpl(host, port, user, password);
-        Destination dest = null;
-        if( destination.startsWith("topic://") ) {
-            dest = new TopicImpl(destination);
-        } else {
-            dest = new QueueImpl(destination);
-        }
 
         Connection connection = factory.createConnection(user, password);
         connection.start();
         Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
-        MessageConsumer consumer = session.createConsumer(dest);
+        MessageConsumer consumer = session.createConsumer(AMQPConfig.getDestination(destination));
         long start = System.currentTimeMillis();
         long count = 1;
         System.out.println("Waiting for messages...");
@@ -50,7 +47,7 @@ public class Listener {
                 } else {
                     try {
                         if( count != msg.getIntProperty("id") ) {
-                            System.out.println("mismatch: "+count+"!="+msg.getIntProperty("id"));
+                            System.out.println("mismatch: " + count + "!=" + msg.getIntProperty("id"));
                         }
                     } catch (NumberFormatException ignore) {
                     }
@@ -63,16 +60,9 @@ public class Listener {
                 }
 
             } else {
-                System.out.println("Unexpected message type: "+msg.getClass());
+                System.out.println("Unexpected message type: " + msg.getClass());
             }
         }
-    }
-
-    private static String env(String key, String defaultValue) {
-        String rc = System.getenv(key);
-        if( rc== null )
-            return defaultValue;
-        return rc;
     }
 
     private static String arg(String []args, int index, String defaultValue) {
